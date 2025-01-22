@@ -13,10 +13,10 @@ set background=dark
 
 " colors ----------------------------------------------------------------------
 
-hi Cursor           ctermbg=7    ctermfg=NONE cterm=NONE           guibg=#e4e4dd  guifg=NONE     gui=NONE
+hi Cursor           ctermbg=7    ctermfg=NONE cterm=NONE           guibg=#c8d4ec  guifg=NONE     gui=NONE
 
-hi Normal           ctermbg=0    ctermfg=7    cterm=NONE           guibg=#24364b  guifg=#e4e4dd  gui=NONE
-hi Title            ctermbg=NONE ctermfg=7    cterm=BOLDUNDERLINE  guibg=NONE     guifg=#e4e4dd  gui=BOLDUNDERLINE
+hi Normal           ctermbg=0    ctermfg=7    cterm=NONE           guibg=#24364b  guifg=#c8d4ec  gui=NONE
+hi Title            ctermbg=NONE ctermfg=7    cterm=BOLDUNDERLINE  guibg=NONE     guifg=#c8d4ec  gui=BOLDUNDERLINE
 hi Comment          ctermbg=NONE ctermfg=8    cterm=NONE           guibg=NONE     guifg=#6194ba  gui=NONE
 hi SpecialComment   ctermbg=NONE ctermfg=12   cterm=NONE           guibg=NONE     guifg=#9fcce7  gui=NONE
 hi Todo             ctermbg=NONE ctermfg=4    cterm=BOLDUNDERLINE  guibg=NONE     guifg=#65baf5  gui=BOLDUNDERLINE
@@ -32,13 +32,13 @@ hi FoldColumn       ctermbg=NONE ctermfg=4    cterm=NONE           guibg=NONE   
 
 hi Underlined       ctermbg=NONE ctermfg=NONE cterm=UNDERLINE      guibg=NONE     guifg=NONE     gui=UNDERLINE
 
-hi Visual           ctermbg=NONE ctermfg=7    cterm=REVERSE        guibg=NONE     guifg=#e4e4dd  gui=REVERSE
+hi Visual           ctermbg=NONE ctermfg=7    cterm=REVERSE        guibg=NONE     guifg=#c8d4ec  gui=REVERSE
 hi VisualNOS        ctermbg=NONE ctermfg=NONE cterm=UNDERLINE      guibg=NONE     guifg=NONE     gui=UNDERLINE
 hi MatchParen       ctermbg=NONE ctermfg=3    cterm=NONE           guibg=NONE     guifg=#ecb534  gui=NONE
 hi IncSearch        ctermbg=11   ctermfg=0    cterm=NONE           guibg=#dfc56d  guifg=#24364b  gui=NONE
 hi Search           ctermbg=11   ctermfg=0    cterm=NONE           guibg=#dfc56d  guifg=#24364b  gui=NONE
-hi CursorColumn     ctermbg=8    ctermfg=7    cterm=NONE           guibg=#6194ba  guifg=#e4e4dd  gui=NONE
-hi CursorLine       ctermbg=8    ctermfg=7    cterm=NONE           guibg=NONE  guifg=#e4e4dd  gui=NONE
+hi CursorColumn     ctermbg=8    ctermfg=7    cterm=NONE           guibg=#6194ba  guifg=#c8d4ec  gui=NONE
+hi CursorLine       ctermbg=8    ctermfg=7    cterm=NONE           guibg=NONE  guifg=#c8d4ec  gui=NONE
 
 hi StatusLine       ctermbg=0    ctermfg=8    cterm=NONE           guibg=#24364b  guifg=#6194ba  gui=NONE
 hi StatusLineNC     ctermbg=0    ctermfg=8    cterm=NONE           guibg=#24364b  guifg=#6194ba  gui=NONE
@@ -51,9 +51,9 @@ hi DiffDelete       ctermbg=1    ctermfg=0    cterm=NONE           guibg=#e76d6d
 hi DiffChange       ctermbg=0    ctermfg=3    cterm=UNDERLINE      guibg=#24364b  guifg=#ecb534  gui=UNDERLINE
 hi DiffText         ctermbg=3    ctermfg=0    cterm=NONE           guibg=#ecb534  guifg=#24364b  gui=NONE
 
-hi Pmenu            ctermbg=7    ctermfg=0    cterm=NONE           guibg=#e4e4dd  guifg=#24364b  gui=NONE
+hi Pmenu            ctermbg=7    ctermfg=0    cterm=NONE           guibg=#c8d4ec  guifg=#24364b  gui=NONE
 hi PmenuSel         ctermbg=0    ctermfg=12   cterm=REVERSE        guibg=#24364b  guifg=#9fcce7  gui=REVERSE
-hi PmenuSbar        ctermbg=7    ctermfg=NONE cterm=NONE           guibg=#e4e4dd  guifg=NONE     gui=NONE
+hi PmenuSbar        ctermbg=7    ctermfg=NONE cterm=NONE           guibg=#c8d4ec  guifg=NONE     gui=NONE
 hi PmenuThumb       ctermbg=8    ctermfg=NONE cterm=NONE           guibg=#6194ba  guifg=NONE     gui=NONE
 
 hi SpellBad         ctermbg=NONE ctermfg=1    cterm=UNDERCURL      guibg=NONE     guifg=#e76d6d  gui=UNDERCURL
@@ -61,7 +61,7 @@ hi SpellCap         ctermbg=NONE ctermfg=1    cterm=UNDERCURL      guibg=NONE   
 hi SpellLocal       ctermbg=NONE ctermfg=9    cterm=UNDERCURL      guibg=NONE     guifg=#edbabf  gui=UNDERCURL
 hi SpellRare        ctermbg=NONE ctermfg=9    cterm=UNDERCURL      guibg=NONE     guifg=#edbabf  gui=UNDERCURL
 
-hi ErrorMsg         ctermbg=1    ctermfg=7    cterm=NONE           guibg=#e76d6d  guifg=#e4e4dd  gui=NONE
+hi ErrorMsg         ctermbg=1    ctermfg=7    cterm=NONE           guibg=#e76d6d  guifg=#c8d4ec  gui=NONE
 hi WarningMsg       ctermbg=NONE ctermfg=1    cterm=NONE           guibg=NONE     guifg=#e76d6d  gui=NONE
 hi MoreMsg          ctermbg=NONE ctermfg=4    cterm=NONE           guibg=NONE     guifg=#65baf5  gui=NONE
 hi Question         ctermbg=NONE ctermfg=4    cterm=NONE           guibg=NONE     guifg=#65baf5  gui=NONE
