@@ -38,7 +38,7 @@ hi MatchParen       ctermbg=NONE ctermfg=3    cterm=NONE           guibg=NONE   
 hi IncSearch        ctermbg=11   ctermfg=0    cterm=NONE           guibg=#dfc56d  guifg=#24364b  gui=NONE
 hi Search           ctermbg=11   ctermfg=0    cterm=NONE           guibg=#dfc56d  guifg=#24364b  gui=NONE
 hi CursorColumn     ctermbg=8    ctermfg=7    cterm=NONE           guibg=#6194ba  guifg=#c8d4ec  gui=NONE
-hi CursorLine       ctermbg=8    ctermfg=7    cterm=NONE           guibg=NONE  guifg=#c8d4ec  gui=NONE
+hi CursorLine       ctermbg=NONE ctermfg=NONE cterm=NONE           guibg=NONE     guifg=NONE     gui=NONE
 
 hi StatusLine       ctermbg=0    ctermfg=8    cterm=NONE           guibg=#24364b  guifg=#6194ba  gui=NONE
 hi StatusLineNC     ctermbg=0    ctermfg=8    cterm=NONE           guibg=#24364b  guifg=#6194ba  gui=NONE
