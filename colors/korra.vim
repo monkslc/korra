@@ -73,7 +73,7 @@ hi TabLineFill      ctermbg=8    ctermfg=0    cterm=NONE           guibg=#6194ba
 hi Error            ctermbg=NONE ctermfg=1    cterm=REVERSE        guibg=NONE     guifg=#e76d6d  gui=REVERSE
 hi Ignore           ctermbg=NONE ctermfg=NONE cterm=NONE           guibg=NONE     guifg=NONE     gui=NONE
 
-hi Keyword          ctermbg=NONE ctermfg=NONE cterm=NONE           guibg=NONE     guifg=NONE     gui=BOLD
+hi Keyword          ctermbg=NONE ctermfg=NONE cterm=NONE           guibg=NONE     guifg=#e6e6df  gui=BOLD
 hi String           ctermbg=NONE ctermfg=NONE cterm=NONE           guibg=NONE     guifg=#90EE90  gui=NONE
 
 " Clear ------------------------------------------------------------------------
